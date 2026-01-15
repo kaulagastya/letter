@@ -234,7 +234,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('POP.jpg');
+  background-image: url('https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=1920');
   background-size: cover;
   background-position: center;
 }
@@ -275,4 +275,5 @@ body {
   background-color: #d9534f;
   color: #fff;
 }
+
 
