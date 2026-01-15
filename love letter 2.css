@@ -228,14 +228,13 @@
   }
 }
 body {
-body {
   margin: 0;
   height: 100vh;
   background-color: #f0e6f6;
   display: flex;
   justify-content: center;
   align-items: center;
-}}
+}
 
 .envlope-wrapper {
   height: auto;
@@ -269,4 +268,5 @@ body {
   background-color: #d9534f;
   color: #fff;
 }
+
 
