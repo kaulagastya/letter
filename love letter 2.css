@@ -8,6 +8,9 @@
   margin-right: auto;
   background-color: #d9534f;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-40px);
+}
+
 }
 
 .front {
@@ -237,7 +240,9 @@ body {
 }
 
 .envlope-wrapper {
-  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .reset {
@@ -268,5 +273,6 @@ body {
   background-color: #d9534f;
   color: #fff;
 }
+
 
 
