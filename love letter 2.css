@@ -45,7 +45,7 @@
   top: 5%;
   border-radius: 6px;
   box-shadow: 0 2px 26px rgba(0, 0, 0, 0.12);
-  font-family: "Dancing Script", cursive;
+  font-family: "Tangerine", cursive;
 }
 
 .letter:after {
@@ -275,6 +275,7 @@ body {
   background-color: #d9534f;
   color: #fff;
 }
+
 
 
 
