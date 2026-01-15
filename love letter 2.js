@@ -1,22 +1,15 @@
 $(document).ready(function () {
-  var envelope = $("#envelope");
-  var btn_open = $("#open");
-  var btn_reset = $("#reset");
+  const envelope = $("#envelope");
 
-  envelope.click(function () {
-    open();
-  });
-  btn_open.click(function () {
-    open();
-  });
-  btn_reset.click(function () {
-    close();
+  envelope.on("click", function () {
+    if (envelope.hasClass("close")) {
+      envelope.removeClass("close").addClass("open");
+    } else {
+      envelope.removeClass("open").addClass("close");
+    }
   });
 
-  function open() {
-    envelope.addClass("open").removeClass("close");
-  }
-  function close() {
-    envelope.addClass("close").removeClass("open");
-  }
+  // Optional: disable buttons if they exist
+  $("#open").off("click");
+  $("#reset").off("click");
 });
