@@ -234,6 +234,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('POP.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .envlope-wrapper {
@@ -272,3 +275,4 @@ body {
   background-color: #d9534f;
   color: #fff;
 }
+
